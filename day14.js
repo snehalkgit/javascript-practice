@@ -97,7 +97,7 @@ city.splice(1,3)
 console.log(city)
 
 
-///flat()
+///flat() -- combine all
 
 num4=[[14,55],[22,66,77],[47,63]]
 console.log(num4[0,1])

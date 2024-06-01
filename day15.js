@@ -112,7 +112,7 @@ let students = [
     {
         firstname: "niki",
         lastname: "kamble",
-        age: 35,
+        age: 27,
         city: "mumbai"
 
     }
