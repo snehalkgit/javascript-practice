@@ -83,5 +83,25 @@ console.log(a2)
  console.log(a3)
 
 
+ 
+//slice
+ let name = "snehalkamble"
+
+// 0 1 2 3 4 5 6 7  8  9 10 11
+ //s n e h a l k a  m  b  l  e 
+ //-12    ----------------- -1
+console.log(name.slice(1,5))
+console.log(name.slice(0,5))
+console.log(name.slice(-8-1))
+console.log(name.slice(5,-5))
+console.log(name.slice(-12,-5))
+console.log(name.slice(-12,6))
+console.log(name.slice(2,-4))
+
+//method chaining 
+
+ let city2 = "MUmbai"
+ let q6 = city2.toUpperCase().toLowerCase().length
+ console.log(q6)
 
 
